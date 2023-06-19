@@ -1,65 +1,42 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2580
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;\f1\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;\red24\green112\blue43;\red0\green0\blue0;}
-{\*\expandedcolortbl;;\cssrgb\c9412\c50196\c21961;\cssrgb\c0\c0\c0;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sl331\partightenfactor0
+// Exercise 1: Calculate the Sum of Two Numbers
+=int1 + int2
 
-\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 //\cf3 \strokec3  
-\fs29\fsmilli14667 \cf2 \strokec2 Exercise\cf3 \strokec3  \cf2 \strokec2 1:\cf3 \strokec3  \cf2 \strokec2 Calculate\cf3 \strokec3  \cf2 \strokec2 the\cf3 \strokec3  \cf2 \strokec2 Sum\cf3 \strokec3  \cf2 \strokec2 of\cf3 \strokec3  \cf2 \strokec2 Two\cf3 \strokec3  \cf2 \strokec2 Numbers
-\f1\fs24 \cf3 \strokec3 \
-\pard\pardeftab720\partightenfactor0
-\cf3 \
-\pard\pardeftab720\sl404\partightenfactor0
 
-\f0\fs29\fsmilli14667 \cf2 \strokec2 (Your\cf3 \strokec3  \cf2 \strokec2 pseudocode\cf3 \strokec3  \cf2 \strokec2 here)
-\f1\fs24 \cf3 \strokec3 \
-\pard\pardeftab720\partightenfactor0
-\cf3 \
-\pard\pardeftab720\sl404\partightenfactor0
+// Exercise 2: Check if a Number is Even or Odd
 
-\f0\fs29\fsmilli14667 \cf2 \strokec2 //\cf3 \strokec3  \cf2 \strokec2 Exercise\cf3 \strokec3  \cf2 \strokec2 2:\cf3 \strokec3  \cf2 \strokec2 Check\cf3 \strokec3  \cf2 \strokec2 if\cf3 \strokec3  \cf2 \strokec2 a\cf3 \strokec3  \cf2 \strokec2 Number\cf3 \strokec3  \cf2 \strokec2 is\cf3 \strokec3  \cf2 \strokec2 Even\cf3 \strokec3  \cf2 \strokec2 or\cf3 \strokec3  \cf2 \strokec2 Odd
-\f1\fs24 \cf3 \strokec3 \
-\pard\pardeftab720\partightenfactor0
-\cf3 \
-\pard\pardeftab720\sl404\partightenfactor0
+Number divided by 2
+    If number is round number then even
+    If number is not, then odd
 
-\f0\fs29\fsmilli14667 \cf2 \strokec2 (Your\cf3 \strokec3  \cf2 \strokec2 pseudocode\cf3 \strokec3  \cf2 \strokec2 here)
-\f1\fs24 \cf3 \strokec3 \
-\pard\pardeftab720\partightenfactor0
-\cf3 \
-\pard\pardeftab720\sl404\partightenfactor0
+// Exercise 3: 
+Write pseudo code that will perform the following.    
 
-\f0\fs29\fsmilli14667 \cf2 \strokec2 //\cf3 \strokec3  \cf2 \strokec2 Exercise\cf3 \strokec3  \cf2 \strokec2 3:\cf3 \strokec3 \'a0
-\f1\fs24 \
+a) Read in 5 separate numbers.   
+    Start
+    WRITE " Please enter 5 numbers"
+    READ int1,int2,int3,int4,int5
 
-\f0\fs29\fsmilli14667 \cf2 \strokec2 Write\cf3 \strokec3  \cf2 \strokec2 pseudo\cf3 \strokec3  \cf2 \strokec2 code\cf3 \strokec3  \cf2 \strokec2 that\cf3 \strokec3  \cf2 \strokec2 will\cf3 \strokec3  \cf2 \strokec2 perform\cf3 \strokec3  \cf2 \strokec2 the\cf3 \strokec3  \cf2 \strokec2 following.\cf3 \strokec3 \'a0\'a0\'a0\'a0
-\f1\fs24 \
-\pard\pardeftab720\partightenfactor0
-\cf3 \
-\pard\pardeftab720\sl404\partightenfactor0
+   
+b) Calculate the average of the five numbers.
+      avg = (int1+int2+int3+int4+int5)
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+    If (int1 < int2)
+        Set max to int2
+    Else
+        Set max to int1
+    If(int3 > max)
+       Set max to int3
+    If(int4 > max)
+        Set max to int4
+    If(int5 > max)
+        Set max to int5
+    WRITE "the max is"
+    WRITE max
+    END
+d) Write out the results found from steps b and c with a message describing what they are
+ WRITE "The average is"
+        avg = (int1+int2+int3+int4+int5)
+ WRITE "the max is"
+    WRITE max
 
-\f0\fs29\fsmilli14667 \cf2 \strokec2 a)\cf3 \strokec3  \cf2 \strokec2 Read\cf3 \strokec3  \cf2 \strokec2 in\cf3 \strokec3  \cf2 \strokec2 5\cf3 \strokec3  \cf2 \strokec2 separate\cf3 \strokec3  \cf2 \strokec2 numbers.\cf3 \strokec3 \'a0\'a0\'a0
-\f1\fs24 \
-
-\f0\fs29\fsmilli14667 \cf2 \strokec2 b)\cf3 \strokec3  \cf2 \strokec2 Calculate\cf3 \strokec3  \cf2 \strokec2 the\cf3 \strokec3  \cf2 \strokec2 average\cf3 \strokec3  \cf2 \strokec2 of\cf3 \strokec3  \cf2 \strokec2 the\cf3 \strokec3  \cf2 \strokec2 five\cf3 \strokec3  \cf2 \strokec2 numbers.
-\f1\fs24 \cf3 \strokec3 \
-
-\f0\fs29\fsmilli14667 \cf2 \strokec2 c)\cf3 \strokec3  \cf2 \strokec2 Find\cf3 \strokec3  \cf2 \strokec2 the\cf3 \strokec3  \cf2 \strokec2 smallest\cf3 \strokec3  \cf2 \strokec2 (minimum)\cf3 \strokec3  \cf2 \strokec2 and\cf3 \strokec3  \cf2 \strokec2 largest\cf3 \strokec3  \cf2 \strokec2 (maximum)\cf3 \strokec3  \cf2 \strokec2 of\cf3 \strokec3  \cf2 \strokec2 the\cf3 \strokec3  \cf2 \strokec2 five\cf3 \strokec3  \cf2 \strokec2 entered\cf3 \strokec3  \cf2 \strokec2 numbers.
-\f1\fs24 \cf3 \strokec3 \
-
-\f0\fs29\fsmilli14667 \cf2 \strokec2 d)\cf3 \strokec3  \cf2 \strokec2 Write\cf3 \strokec3  \cf2 \strokec2 out\cf3 \strokec3  \cf2 \strokec2 the\cf3 \strokec3  \cf2 \strokec2 results\cf3 \strokec3  \cf2 \strokec2 found\cf3 \strokec3  \cf2 \strokec2 from\cf3 \strokec3  \cf2 \strokec2 steps\cf3 \strokec3  \cf2 \strokec2 b\cf3 \strokec3  \cf2 \strokec2 and\cf3 \strokec3  \cf2 \strokec2 c\cf3 \strokec3  \cf2 \strokec2 with\cf3 \strokec3  \cf2 \strokec2 a\cf3 \strokec3  \cf2 \strokec2 message\cf3 \strokec3  \cf2 \strokec2 describing\cf3 \strokec3  \cf2 \strokec2 what\cf3 \strokec3  \cf2 \strokec2 they\cf3 \strokec3  \cf2 \strokec2 are
-\f1\fs24 \cf3 \strokec3 \
-\pard\pardeftab720\partightenfactor0
-\cf3 \
-\pard\pardeftab720\sl404\partightenfactor0
-
-\f0\fs29\fsmilli14667 \cf2 \strokec2 (Your\cf3 \strokec3  \cf2 \strokec2 pseudocode\cf3 \strokec3  \cf2 \strokec2 here)
-\f1\fs24 \cf3 \strokec3 \
-\pard\pardeftab720\partightenfactor0
-\cf3 \
-\pard\pardeftab720\partightenfactor0
-
-\f0\fs29\fsmilli14667 \cf2 \strokec2 --\cf3 \strokec3  \cf2 \strokec2 END\cf3 \strokec3  \cf2 \strokec2 --}
+-- END --
