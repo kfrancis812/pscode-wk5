@@ -1,42 +1,39 @@
 // Exercise 1: Calculate the Sum of Two Numbers
-=int1 + int2
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
 
 
 // Exercise 2: Check if a Number is Even or Odd
 
-Number divided by 2
-    If number is round number then even
-    If number is not, then odd
+Input the number
+Check if the number is divisible by 2
+   a. If the remainder when the number is divided by 2 is 0, then Print "The number is even"
+   b. Else Print "The number is odd"
+
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
 
 a) Read in 5 separate numbers.   
-    Start
-    WRITE " Please enter 5 numbers"
-    READ int1,int2,int3,int4,int5
-
-   
 b) Calculate the average of the five numbers.
-      avg = (int1+int2+int3+int4+int5)
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
-    If (int1 < int2)
-        Set max to int2
-    Else
-        Set max to int1
-    If(int3 > max)
-       Set max to int3
-    If(int4 > max)
-        Set max to int4
-    If(int5 > max)
-        Set max to int5
-    WRITE "the max is"
-    WRITE max
-    END
 d) Write out the results found from steps b and c with a message describing what they are
- WRITE "The average is"
-        avg = (int1+int2+int3+int4+int5)
- WRITE "the max is"
-    WRITE max
+
+input 5 numbers
+sum of numbers
+avgNumber = sum of numbers / 5
+minNumber = min(num1, num2, num3, num4, num5)
+maxNumber = max(num1, num2, num3, num4, num5)
+
+PRINT "The average of these numbers are " avgNumber
+PRINT "The smallest number is " minNumber
+PRINT "The largest number is " maxNumber
 
 -- END --
